@@ -41,7 +41,7 @@ flowchart LR
   API --> LOOP[Bounded agent loop]
   LOOP --> LLM[Gemini / Groq router]
   LOOP --> TOOLS[Validated server tools]
-  TOOLS --> PIN[India Post PIN lookup]
+  TOOLS --> PIN[Postal PIN lookup]
   TOOLS --> DB[(MongoDB Atlas)]
   API --> WA[Twilio WhatsApp preview or sandbox]
   F[Family booking page] --> API
@@ -55,7 +55,7 @@ flowchart LR
 | --- | --- |
 | `get_lead` | Loads the family record and counselling notes. Phone numbers stay on the server. |
 | `extract_doubts` | Stores structured concerns and checks quoted text against the original notes. |
-| `resolve_district` | Resolves a PIN code through India Post, with a short timeout and local cache fallback. |
+| `resolve_district` | Resolves a PIN code through a public postal lookup endpoint, with a short timeout and local cache fallback. |
 | `search_ambassadors` | Finds active, consented parents within their weekly call limit, prioritising district, state, university, and language fit. |
 | `score_candidates` | Ranks candidates; verified match facts are attached by the server. |
 | `create_match` | Persists the selected candidate and matching rationale. |
@@ -70,7 +70,7 @@ Tool arguments are validated with Zod before execution. Results are persisted in
 - Gemini and Groq through a shared tool-calling interface
 - MongoDB Atlas with Mongoose
 - Twilio WhatsApp sandbox integration with a safe preview fallback
-- India Post public PIN-code data/API
+- Public postal PIN lookup with a local reference cache
 - Zod, Vitest, ESLint
 
 ## Run locally
@@ -96,6 +96,14 @@ npm run lint             # Run ESLint
 ```
 
 See [.env.example](.env.example) for the full environment variable list.
+
+## Public data and synthetic data
+
+- **Postal reference data:** the live resolver currently calls `api.postalpincode.in`, then falls back to the curated `data/pincodes.json` cache. The endpoint is separate from the Government of India's official directory. The Department of Posts publishes an [All India Pincode Directory through the Open Government Data portal](https://data.gov.in/resource/all-india-pincode-directory-till-last-month), with PIN, post office, district, and state fields and a monthly update schedule. Use that official catalogue when validating or refreshing postal reference data.
+- **Higher-education context:** AISHE publishes national higher-education reports. Its [reports page](https://aishe.gov.in/document-category/aishe-final-reports/) currently lists 2023–24 final reports and Excel files. AISHE covers aggregate institutional and student statistics, not individual families' counselling conversations.
+- **Institution reference:** the UGC maintains a [category-wise university list](https://www.ugc.gov.in/universitydetails/university?type=MuOh4z0uqRaY2k8Ag10I0g%3D%3D) that can support institution reference checks.
+
+These public sources do not provide consented family leads, parent contacts, call notes, or enrollment outcomes for this workflow. Those records remain synthetic in this project; the aggregate public datasets should not be used as substitutes for person-level data.
 
 ## Privacy and safety design
 

@@ -26,7 +26,7 @@ const FLOW = [
 const TOOLS = [
   ["get_lead", "Reads the family's record and counselling notes from MongoDB."],
   ["extract_doubts", "Saves the family's questions; every quote is checked against the notes."],
-  ["resolve_district", "Looks up the PIN code with India Post, then falls back to a local cache."],
+  ["resolve_district", "Uses a public postal PIN lookup, then falls back to a local cache."],
   ["search_ambassadors", "Finds available, consented parents by district, university, and language."],
   ["score_candidates", "Ranks parent ambassadors; the server attaches verified facts."],
   ["create_match", "Saves the selected match and its reasons."],
@@ -42,12 +42,12 @@ export default function Home() {
           <Sparkles className="size-3.5" aria-hidden /> Agentic AI · multilingual education support
         </p>
         <h1 className="mt-4 max-w-3xl text-3xl font-semibold tracking-tight sm:text-5xl">
-          "We'll think about it." <span className="text-primary">Help families get answers from people who understand.</span>
+          &quot;We&apos;ll think about it.&quot; <span className="text-primary">Help families get answers from people who understand.</span>
         </h1>
         <p className="mt-5 max-w-3xl text-base text-muted-foreground sm:text-lg leading-relaxed">
-          ParentBridge is a portfolio prototype for multilingual education support. An AI agent extracts a family's questions from
+          ParentBridge is a portfolio prototype for multilingual education support. An AI agent extracts a family&apos;s questions from
           case notes, checks a district, searches and ranks eligible parent ambassadors, prepares a localized offer and call brief,
-          then summarizes the outcome. A counsellor can review the agent's trace and results. The experiment dashboard uses
+          then summarizes the outcome. A counsellor can review the agent&apos;s trace and results. The experiment dashboard uses
           synthetic data so the workflow can be explored without presenting simulated outcomes as real results.
         </p>
         <div className="mt-8 grid gap-3 sm:grid-cols-3">
@@ -110,7 +110,7 @@ export default function Home() {
 
       <section className="grid gap-6 py-8 lg:grid-cols-2">
         <div className="rounded-2xl border bg-card p-5">
-          <h2 className="text-lg font-semibold">The agent's 8 tools</h2>
+          <h2 className="text-lg font-semibold">The agent&apos;s 8 tools</h2>
           <p className="mt-1 text-sm text-muted-foreground">
             A bounded function-calling loop. Independent tools can run in parallel; every call is validated, logged, and replayable.
           </p>

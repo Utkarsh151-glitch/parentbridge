@@ -47,7 +47,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <p>
               ParentBridge — an agentic AI portfolio project using a synthetic education support scenario. Consent, purpose limitation, and opt-out are built into the demo.
             </p>
-            <p>Next.js · MongoDB Atlas · Gemini · Groq · Twilio WhatsApp · India Post API</p>
+            <p>Next.js · MongoDB Atlas · Gemini · Groq · Twilio WhatsApp · Department of Posts PIN data</p>
           </div>
         </footer>
       </body>

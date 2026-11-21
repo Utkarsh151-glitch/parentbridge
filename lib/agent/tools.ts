@@ -205,7 +205,7 @@ const extractDoubts: AgentTool<MatchCtx> = {
 const resolveDistrictTool: AgentTool<MatchCtx> = {
   name: "resolve_district",
   description:
-    "Resolve the family's PIN code to district and state using the live India Post PIN code API (falls back to a local cache).",
+    "Resolve the family's PIN code to district and state using the public postal PIN lookup (falls back to a local cache).",
   schema: ResolveDistrictArgs,
   async run(args: z.infer<typeof ResolveDistrictArgs>, ctx) {
     ctx.called.add("resolve_district");
@@ -214,7 +214,7 @@ const resolveDistrictTool: AgentTool<MatchCtx> = {
       cacheLookup: async (pin) => PincodeDistrict.findOne({ pincode: pin }).lean(),
     });
     if (!r.ok) {
-      return { ok: false, source: "India Post API", summary: r.error, result: { error: r.error } };
+      return { ok: false, source: "Postal PIN lookup", summary: r.error, result: { error: r.error } };
     }
     ctx.resolution = r;
     // Persist on the lead (manual leads arrive without a district).
@@ -237,9 +237,9 @@ const resolveDistrictTool: AgentTool<MatchCtx> = {
         { upsert: true }
       );
     }
-    const via = r.source === "india_post" ? "India Post API" : `cache (${r.fallback_reason})`;
+    const via = r.source === "india_post" ? "postal PIN endpoint" : `cache (${r.fallback_reason})`;
     return {
-      source: r.source === "india_post" ? "India Post API" : "cache",
+      source: r.source === "india_post" ? "Postal PIN lookup" : "cache",
       summary: `${r.district}, ${r.state} · ${via} · ${r.latency_ms} ms`,
       result: {
         district: r.district,

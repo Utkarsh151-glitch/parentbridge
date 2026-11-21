@@ -18,7 +18,7 @@ export type StepRecord = {
   ok: boolean;
   ms: number;
   summary?: string; // one-line human summary for the trace card
-  source?: string; // e.g. "India Post API", "MongoDB", "cache"
+  source?: string; // e.g. "Postal PIN lookup", "MongoDB", "cache"
 };
 
 export type LlmTurnRecord = {

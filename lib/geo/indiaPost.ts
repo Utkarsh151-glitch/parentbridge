@@ -24,7 +24,7 @@ const API = "https://api.postalpincode.in/pincode/";
 type PostOffice = { Name: string; District: string; State: string; BranchType?: string; DeliveryStatus?: string };
 type ApiResponse = Array<{ Status: string; Message?: string; PostOffice: PostOffice[] | null }>;
 
-/** Live India Post lookup with a hard timeout; returns null fields on "no such PIN". */
+/** Live lookup for public postal PIN data with a hard timeout. */
 export async function fetchIndiaPost(
   pincode: string,
   opts: { timeoutMs?: number; fetchImpl?: typeof fetch } = {}
@@ -32,14 +32,14 @@ export async function fetchIndiaPost(
   const timeoutMs = opts.timeoutMs ?? 3000;
   const f = opts.fetchImpl ?? fetch;
   const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(new Error(`India Post API timed out after ${timeoutMs} ms`)), timeoutMs);
+  const timer = setTimeout(() => ctrl.abort(new Error(`Postal PIN lookup timed out after ${timeoutMs} ms`)), timeoutMs);
   try {
     const res = await f(API + encodeURIComponent(pincode), {
       signal: ctrl.signal,
       headers: { Accept: "application/json" },
       cache: "no-store",
     });
-    if (!res.ok) throw new Error(`India Post API HTTP ${res.status}`);
+    if (!res.ok) throw new Error(`Postal PIN lookup HTTP ${res.status}`);
     const json = (await res.json()) as ApiResponse;
     const first = Array.isArray(json) ? json[0] : null;
     if (!first || first.Status !== "Success" || !first.PostOffice?.length) return { status: "not_found" };
@@ -53,7 +53,7 @@ export async function fetchIndiaPost(
 }
 
 /**
- * Resolve a PIN code to district/state: live India Post API first (≤3 s),
+ * Resolve a PIN code to district/state: live postal lookup first (≤3 s),
  * then the local `pincode_district` cache, clearly marked `source: "cache"`.
  */
 export async function resolveDistrict(
@@ -83,7 +83,7 @@ export async function resolveDistrict(
         note: regionNote(key),
       };
     }
-    fallbackReason = "India Post has no record for this PIN";
+    fallbackReason = "The postal lookup has no record for this PIN";
   } catch (e) {
     fallbackReason = e instanceof Error ? e.message : String(e);
   }

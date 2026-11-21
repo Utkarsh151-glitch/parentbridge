@@ -1,5 +1,5 @@
 /**
- * One-off: verify the seed PIN codes against the live India Post API and write
+ * One-off: verify the seed PIN codes against the configured public postal lookup and write
  * data/pincodes.json (used by the seed script and as the offline fallback cache).
  *   npx tsx scripts/fetch-pincodes.ts
  */
