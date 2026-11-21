@@ -1,0 +1,874 @@
+[
+ {
+  "pincode": "522001",
+  "district": "Guntur",
+  "postal_district": "Guntur",
+  "district_key": "guntur",
+  "state": "Andhra Pradesh",
+  "office": "Bus Stand(Guntur)"
+ },
+ {
+  "pincode": "522002",
+  "district": "Guntur",
+  "postal_district": "Guntur",
+  "district_key": "guntur",
+  "state": "Andhra Pradesh",
+  "office": "Brodipet(Guntur)"
+ },
+ {
+  "pincode": "522003",
+  "district": "Guntur",
+  "postal_district": "Guntur",
+  "district_key": "guntur",
+  "state": "Andhra Pradesh",
+  "office": "Choutra(Guntur)"
+ },
+ {
+  "pincode": "522004",
+  "district": "Guntur",
+  "postal_district": "Guntur",
+  "district_key": "guntur",
+  "state": "Andhra Pradesh",
+  "office": "A.T.Agraharam(Guntur)"
+ },
+ {
+  "pincode": "522006",
+  "district": "Guntur",
+  "postal_district": "Guntur",
+  "district_key": "guntur",
+  "state": "Andhra Pradesh",
+  "office": "Chowdaripeta(Guntur)"
+ },
+ {
+  "pincode": "522007",
+  "district": "Guntur",
+  "postal_district": "Guntur",
+  "district_key": "guntur",
+  "state": "Andhra Pradesh",
+  "office": "Amaravathi Road(Guntur)"
+ },
+ {
+  "pincode": "522201",
+  "district": "Guntur",
+  "postal_district": "Guntur",
+  "district_key": "guntur",
+  "state": "Andhra Pradesh",
+  "office": "China Ravuru Tenali"
+ },
+ {
+  "pincode": "522601",
+  "district": "Guntur",
+  "postal_district": "Guntur",
+  "district_key": "guntur",
+  "state": "Andhra Pradesh",
+  "office": "Arundalpet (NSV)"
+ },
+ {
+  "pincode": "522101",
+  "district": "Guntur",
+  "postal_district": "Guntur",
+  "district_key": "guntur",
+  "state": "Andhra Pradesh",
+  "office": "Bapatla"
+ },
+ {
+  "pincode": "522503",
+  "district": "Guntur",
+  "postal_district": "Guntur",
+  "district_key": "guntur",
+  "state": "Andhra Pradesh",
+  "office": "Apsp Colony(Mangalagiri)"
+ },
+ {
+  "pincode": "520001",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Chittinagar"
+ },
+ {
+  "pincode": "520002",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Arundalpet"
+ },
+ {
+  "pincode": "520003",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "A.C.Company"
+ },
+ {
+  "pincode": "520004",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Gunadala"
+ },
+ {
+  "pincode": "520007",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Autonagar"
+ },
+ {
+  "pincode": "520008",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "A.P.U.H.S"
+ },
+ {
+  "pincode": "520010",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Chandramoulipuram"
+ },
+ {
+  "pincode": "520011",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Besant Road"
+ },
+ {
+  "pincode": "520012",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "A.P.H.B.Colony"
+ },
+ {
+  "pincode": "520013",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Krishnalanka"
+ },
+ {
+  "pincode": "520015",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Azitnagar"
+ },
+ {
+  "pincode": "521101",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Gannavaram"
+ },
+ {
+  "pincode": "521001",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Balaramunipet"
+ },
+ {
+  "pincode": "521301",
+  "district": "Krishna",
+  "postal_district": "Krishna",
+  "district_key": "krishna",
+  "state": "Andhra Pradesh",
+  "office": "Bommuluru"
+ },
+ {
+  "pincode": "530001",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "Fortward"
+ },
+ {
+  "pincode": "530002",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "D.C. Buildings"
+ },
+ {
+  "pincode": "530003",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "Andhra University"
+ },
+ {
+  "pincode": "530013",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "P & T Colony (VM)"
+ },
+ {
+  "pincode": "530016",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "Akkayyapalem"
+ },
+ {
+  "pincode": "530017",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "L B Colony"
+ },
+ {
+  "pincode": "530020",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "Dabagardens"
+ },
+ {
+  "pincode": "530022",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "H B Colony"
+ },
+ {
+  "pincode": "530024",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "Salagramapuram"
+ },
+ {
+  "pincode": "530026",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "Gajuwaka"
+ },
+ {
+  "pincode": "530040",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "Govt Dairy Farm"
+ },
+ {
+  "pincode": "530041",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "Pothinamallayapalem"
+ },
+ {
+  "pincode": "530045",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "Gitam Engg. College"
+ },
+ {
+  "pincode": "531001",
+  "district": "Visakhapatnam",
+  "postal_district": "Visakhapatnam",
+  "district_key": "visakhapatnam",
+  "state": "Andhra Pradesh",
+  "office": "Anakapalle"
+ },
+ {
+  "pincode": "500001",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Gandhi Bhawan (Hyderabad)"
+ },
+ {
+  "pincode": "500004",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "A.Gs Office"
+ },
+ {
+  "pincode": "500012",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Begumbazar"
+ },
+ {
+  "pincode": "500016",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Begumpet"
+ },
+ {
+  "pincode": "500020",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Ashoknagar (Hyderabad)"
+ },
+ {
+  "pincode": "500027",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Barkatpura"
+ },
+ {
+  "pincode": "500028",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Humayunnagar"
+ },
+ {
+  "pincode": "500034",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Banjara Hills"
+ },
+ {
+  "pincode": "500036",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Malakpet Colony"
+ },
+ {
+  "pincode": "500038",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Sanjeev Reddy Nagar"
+ },
+ {
+  "pincode": "500044",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Andhra Mahila Sabha"
+ },
+ {
+  "pincode": "500074",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "L B Nagar"
+ },
+ {
+  "pincode": "500032",
+  "district": "Rangareddy",
+  "postal_district": "K.V.Rangareddy",
+  "district_key": "rangareddy",
+  "state": "Telangana",
+  "office": "Gachibowli"
+ },
+ {
+  "pincode": "501218",
+  "district": "Rangareddy",
+  "postal_district": "K.V.Rangareddy",
+  "district_key": "rangareddy",
+  "state": "Telangana",
+  "office": "Shamshabad (K.V.Rangareddy)"
+ },
+ {
+  "pincode": "500030",
+  "district": "Rangareddy",
+  "postal_district": "K.V.Rangareddy",
+  "district_key": "rangareddy",
+  "state": "Telangana",
+  "office": "A.G.College"
+ },
+ {
+  "pincode": "500070",
+  "district": "Rangareddy",
+  "postal_district": "K.V.Rangareddy",
+  "district_key": "rangareddy",
+  "state": "Telangana",
+  "office": "Sarada Nagar"
+ },
+ {
+  "pincode": "500075",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Bhaskar Nagar"
+ },
+ {
+  "pincode": "500097",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Gayatri Nagar"
+ },
+ {
+  "pincode": "500079",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Vaishalinagar"
+ },
+ {
+  "pincode": "501301",
+  "district": "Rangareddy",
+  "postal_district": "K.V.Rangareddy",
+  "district_key": "rangareddy",
+  "state": "Telangana",
+  "office": "Ghatkesar"
+ },
+ {
+  "pincode": "501505",
+  "district": "Rangareddy",
+  "postal_district": "K.V.Rangareddy",
+  "district_key": "rangareddy",
+  "state": "Telangana",
+  "office": "Hayatnagar"
+ },
+ {
+  "pincode": "500086",
+  "district": "Hyderabad",
+  "postal_district": "Hyderabad",
+  "district_key": "hyderabad",
+  "state": "Telangana",
+  "office": "Don Bosco Nagar"
+ },
+ {
+  "pincode": "506001",
+  "district": "Warangal",
+  "postal_district": "Warangal",
+  "district_key": "warangal",
+  "state": "Telangana",
+  "office": "Hanamkonda"
+ },
+ {
+  "pincode": "506002",
+  "district": "Warangal",
+  "postal_district": "Warangal",
+  "district_key": "warangal",
+  "state": "Telangana",
+  "office": "Beat Bazar"
+ },
+ {
+  "pincode": "506003",
+  "district": "Warangal",
+  "postal_district": "Warangal",
+  "district_key": "warangal",
+  "state": "Telangana",
+  "office": "Bapujinagar (Warangal)"
+ },
+ {
+  "pincode": "506004",
+  "district": "Warangal",
+  "postal_district": "Warangal",
+  "district_key": "warangal",
+  "state": "Telangana",
+  "office": "Fatimanagar"
+ },
+ {
+  "pincode": "506007",
+  "district": "Warangal",
+  "postal_district": "Warangal",
+  "district_key": "warangal",
+  "state": "Telangana",
+  "office": "K.M.College"
+ },
+ {
+  "pincode": "506009",
+  "district": "Warangal",
+  "postal_district": "Warangal",
+  "district_key": "warangal",
+  "state": "Telangana",
+  "office": "Naimnagar"
+ },
+ {
+  "pincode": "506013",
+  "district": "Warangal",
+  "postal_district": "Warangal",
+  "district_key": "warangal",
+  "state": "Telangana",
+  "office": "Laxmipur (Warangal)"
+ },
+ {
+  "pincode": "506015",
+  "district": "Warangal",
+  "postal_district": "Warangal",
+  "district_key": "warangal",
+  "state": "Telangana",
+  "office": "K C Colony"
+ },
+ {
+  "pincode": "505001",
+  "district": "Karimnagar",
+  "postal_district": "Karim Nagar",
+  "district_key": "karimnagar",
+  "state": "Telangana",
+  "office": "Arepalli"
+ },
+ {
+  "pincode": "505209",
+  "district": "Karimnagar",
+  "postal_district": "Karim Nagar",
+  "district_key": "karimnagar",
+  "state": "Telangana",
+  "office": "Godavarikhani"
+ },
+ {
+  "pincode": "505301",
+  "district": "Karimnagar",
+  "postal_district": "Karim Nagar",
+  "district_key": "karimnagar",
+  "state": "Telangana",
+  "office": "Gandhichowk Srisilla"
+ },
+ {
+  "pincode": "505327",
+  "district": "Karimnagar",
+  "postal_district": "Karim Nagar",
+  "district_key": "karimnagar",
+  "state": "Telangana",
+  "office": "Jagtial"
+ },
+ {
+  "pincode": "507001",
+  "district": "Khammam",
+  "postal_district": "Khammam",
+  "district_key": "khammam",
+  "state": "Telangana",
+  "office": "Burahanpuram"
+ },
+ {
+  "pincode": "507002",
+  "district": "Khammam",
+  "postal_district": "Khammam",
+  "district_key": "khammam",
+  "state": "Telangana",
+  "office": "Collectorate (Khammam)"
+ },
+ {
+  "pincode": "507003",
+  "district": "Khammam",
+  "postal_district": "Khammam",
+  "district_key": "khammam",
+  "state": "Telangana",
+  "office": "Dabala Bazar"
+ },
+ {
+  "pincode": "507101",
+  "district": "Khammam",
+  "postal_district": "Khammam",
+  "district_key": "khammam",
+  "state": "Telangana",
+  "office": "Bhajanamandir"
+ },
+ {
+  "pincode": "507111",
+  "district": "Khammam",
+  "postal_district": "Khammam",
+  "district_key": "khammam",
+  "state": "Telangana",
+  "office": "B.R.Colony"
+ },
+ {
+  "pincode": "524001",
+  "district": "Nellore",
+  "postal_district": "Nellore",
+  "district_key": "nellore",
+  "state": "Andhra Pradesh",
+  "office": "Nellore"
+ },
+ {
+  "pincode": "524002",
+  "district": "Nellore",
+  "postal_district": "Nellore",
+  "district_key": "nellore",
+  "state": "Andhra Pradesh",
+  "office": "A.C.Nagar"
+ },
+ {
+  "pincode": "524003",
+  "district": "Nellore",
+  "postal_district": "Nellore",
+  "district_key": "nellore",
+  "state": "Andhra Pradesh",
+  "office": "Dargamitta"
+ },
+ {
+  "pincode": "524004",
+  "district": "Nellore",
+  "postal_district": "Nellore",
+  "district_key": "nellore",
+  "state": "Andhra Pradesh",
+  "office": "Andhrakesari Nagar"
+ },
+ {
+  "pincode": "524101",
+  "district": "Nellore",
+  "postal_district": "Nellore",
+  "district_key": "nellore",
+  "state": "Andhra Pradesh",
+  "office": "Gudur"
+ },
+ {
+  "pincode": "524201",
+  "district": "Nellore",
+  "postal_district": "Nellore",
+  "district_key": "nellore",
+  "state": "Andhra Pradesh",
+  "office": "Choudaripalem"
+ },
+ {
+  "pincode": "517501",
+  "district": "Chittoor",
+  "postal_district": "Chittoor",
+  "district_key": "chittoor",
+  "state": "Andhra Pradesh",
+  "office": "Bhavani Nagar"
+ },
+ {
+  "pincode": "517502",
+  "district": "Chittoor",
+  "postal_district": "Chittoor",
+  "district_key": "chittoor",
+  "state": "Andhra Pradesh",
+  "office": "S.V.Nagar"
+ },
+ {
+  "pincode": "517503",
+  "district": "Chittoor",
+  "postal_district": "Chittoor",
+  "district_key": "chittoor",
+  "state": "Andhra Pradesh",
+  "office": "Tiruchanoor"
+ },
+ {
+  "pincode": "517507",
+  "district": "Chittoor",
+  "postal_district": "Chittoor",
+  "district_key": "chittoor",
+  "state": "Andhra Pradesh",
+  "office": "R.S.Gardens"
+ },
+ {
+  "pincode": "517001",
+  "district": "Chittoor",
+  "postal_district": "Chittoor",
+  "district_key": "chittoor",
+  "state": "Andhra Pradesh",
+  "office": "Chittoor"
+ },
+ {
+  "pincode": "517325",
+  "district": "Chittoor",
+  "postal_district": "Chittoor",
+  "district_key": "chittoor",
+  "state": "Andhra Pradesh",
+  "office": "Kothapeta Madanapalle"
+ },
+ {
+  "pincode": "518001",
+  "district": "Kurnool",
+  "postal_district": "Kurnool",
+  "district_key": "kurnool",
+  "state": "Andhra Pradesh",
+  "office": "Knl-osmaniacollege"
+ },
+ {
+  "pincode": "518002",
+  "district": "Kurnool",
+  "postal_district": "Kurnool",
+  "district_key": "kurnool",
+  "state": "Andhra Pradesh",
+  "office": "KNL-camp-B"
+ },
+ {
+  "pincode": "518003",
+  "district": "Kurnool",
+  "postal_district": "Kurnool",
+  "district_key": "kurnool",
+  "state": "Andhra Pradesh",
+  "office": "SAP Camp-kNL"
+ },
+ {
+  "pincode": "518004",
+  "district": "Kurnool",
+  "postal_district": "Kurnool",
+  "district_key": "kurnool",
+  "state": "Andhra Pradesh",
+  "office": "Bhagya Nagar-kurnool"
+ },
+ {
+  "pincode": "518501",
+  "district": "Kurnool",
+  "postal_district": "Kurnool",
+  "district_key": "kurnool",
+  "state": "Andhra Pradesh",
+  "office": "Nandyal"
+ },
+ {
+  "pincode": "518301",
+  "district": "Kurnool",
+  "postal_district": "Kurnool",
+  "district_key": "kurnool",
+  "state": "Andhra Pradesh",
+  "office": "Adoni"
+ },
+ {
+  "pincode": "515001",
+  "district": "Anantapur",
+  "postal_district": "Ananthapur",
+  "district_key": "anantapur",
+  "state": "Andhra Pradesh",
+  "office": "Anantapur"
+ },
+ {
+  "pincode": "515002",
+  "district": "Anantapur",
+  "postal_district": "Ananthapur",
+  "district_key": "anantapur",
+  "state": "Andhra Pradesh",
+  "office": "Anantapur Engg College"
+ },
+ {
+  "pincode": "515004",
+  "district": "Anantapur",
+  "postal_district": "Ananthapur",
+  "district_key": "anantapur",
+  "state": "Andhra Pradesh",
+  "office": "Georgepet"
+ },
+ {
+  "pincode": "515801",
+  "district": "Anantapur",
+  "postal_district": "Ananthapur",
+  "district_key": "anantapur",
+  "state": "Andhra Pradesh",
+  "office": "Guntakal"
+ },
+ {
+  "pincode": "515201",
+  "district": "Anantapur",
+  "postal_district": "Ananthapur",
+  "district_key": "anantapur",
+  "state": "Andhra Pradesh",
+  "office": "Hindupur"
+ },
+ {
+  "pincode": "516001",
+  "district": "Kadapa",
+  "postal_district": "Cuddapah",
+  "district_key": "kadapa",
+  "state": "Andhra Pradesh",
+  "office": "Almaspet"
+ },
+ {
+  "pincode": "516002",
+  "district": "Kadapa",
+  "postal_district": "Cuddapah",
+  "district_key": "kadapa",
+  "state": "Andhra Pradesh",
+  "office": "Jayanagar (Cuddapah)"
+ },
+ {
+  "pincode": "516126",
+  "district": "Kadapa",
+  "postal_district": "Cuddapah",
+  "district_key": "kadapa",
+  "state": "Andhra Pradesh",
+  "office": "Mannur (Cuddapah)"
+ },
+ {
+  "pincode": "516360",
+  "district": "Kadapa",
+  "postal_district": "Cuddapah",
+  "district_key": "kadapa",
+  "state": "Andhra Pradesh",
+  "office": "College Road"
+ },
+ {
+  "pincode": "533101",
+  "district": "East Godavari",
+  "postal_district": "East Godavari",
+  "district_key": "east_godavari",
+  "state": "Andhra Pradesh",
+  "office": "Alcot Gardens"
+ },
+ {
+  "pincode": "533001",
+  "district": "East Godavari",
+  "postal_district": "East Godavari",
+  "district_key": "east_godavari",
+  "state": "Andhra Pradesh",
+  "office": "Govt.Gen Hospital"
+ },
+ {
+  "pincode": "533103",
+  "district": "East Godavari",
+  "postal_district": "East Godavari",
+  "district_key": "east_godavari",
+  "state": "Andhra Pradesh",
+  "office": "Danavaipeta"
+ },
+ {
+  "pincode": "503001",
+  "district": "Nizamabad",
+  "postal_district": "Nizamabad",
+  "district_key": "nizamabad",
+  "state": "Telangana",
+  "office": "Gajulpet"
+ },
+ {
+  "pincode": "509001",
+  "district": "Mahbubnagar",
+  "postal_district": "Mahabub Nagar",
+  "district_key": "mahabubnagar",
+  "state": "Telangana",
+  "office": "Hanumanpura"
+ }
+]
